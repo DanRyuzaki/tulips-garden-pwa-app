@@ -7,6 +7,8 @@ import 'package:sjyblairgarden/screens/default_screen.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'firebase_options.dart';
 
+const String GeminiAPIKey = String.fromEnvironment('API_KEY');
+
 bool get isMobile =>
     (defaultTargetPlatform == TargetPlatform.android ||
         defaultTargetPlatform == TargetPlatform.iOS) &&
@@ -15,7 +17,7 @@ bool get isMobile =>
 void main() async {
   runApp(const MyApp());
   try {
-    Gemini.init(apiKey: 'YOUR_API_KEY');
+    Gemini.init(apiKey: GeminiAPIKey);
     await Firebase.initializeApp(
       options: DefaultFirebaseOptions.currentPlatform,
     );

@@ -68,8 +68,10 @@ flutter:
     - assets/media_background/
     - assets/media_pick-a-tulip/
     - assets/fonts/
-    - assets/keys/
   fonts:
+    - family: MaterialIcons
+      fonts:
+        - asset: assets/fonts/MaterialIcons-Regular.otf
     - family: Montserrat
       fonts:
         - asset: assets/fonts/Montserrat-VariableFont_wght.ttf

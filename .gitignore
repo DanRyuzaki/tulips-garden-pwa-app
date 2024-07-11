@@ -64,3 +64,4 @@ version.json
 favicon.png
 pubspec.lock
 /assets/keys/
+.runandbuildmethod
