@@ -1,11 +1,11 @@
 {
-    "name": "sjyblairgarden",
-    "short_name": "sjyblairgarden",
+    "name": "Tulips Garden",
+    "short_name": "Tulips Garden",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
     "theme_color": "#0175C2",
-    "description": "A new Flutter project.",
+    "description": "Welcome to Akira Blair's Tulips Garden, a website crafted with love to celebrate all of Blair's favorite things. Immerse yourself in the charm of Amsterdam, delight in the beauty of tulips, and explore a space where you can express yourself freely without fear. Here, you'll also find a treasure trove of literature to ignite your imagination and nourish your soul.",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
     "icons": [
